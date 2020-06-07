@@ -5,11 +5,15 @@
 ---
 ## Categories
 * [Macos](#macos)
+* [Life](#life)
 
 ---
 
 ## Macos
 * [맥북_잠자기_상태에서_자동으로_재부팅되는_문제.md](macos/맥북_잠자기_상태에서_자동으로_재부팅되는_문제.md)
+
+## Life
+* [따릉이.md](life/따릉이.md)
 
 ---
 ## Rules
@@ -28,4 +32,3 @@ Inspired by
 * [@jbranchaud](https://github.com/jbranchaud/til)
 * [@milooy](https://github.com/milooy/TIL)
 * [@channprj](https://github.com/channprj/TIL)
-
