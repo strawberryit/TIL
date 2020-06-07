@@ -52,8 +52,12 @@ for file in files:
     if os.path.isdir(file):
         directories.append(file)
 
-if 'drafts' in directories:
-    directories.remove('drafts')
+# 목록에서 제외 할 디렉토리
+def is_exclude_dir(directory):
+    return directory == 'drafts' \
+        or directory.endswith('/image')
+
+directories = [d for d in directories if not is_exclude_dir(d)]
 
 for directory in directories:
     readme.write("* [" + directory.capitalize() + "](#" + directory + ")\n")
