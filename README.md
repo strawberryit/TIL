@@ -6,6 +6,7 @@
 ## Categories
 * [Macos](#macos)
 * [Life](#life)
+* [Linux](#linux)
 
 ---
 
@@ -14,6 +15,9 @@
 
 ## Life
 * [따릉이.md](life/따릉이.md)
+
+## Linux
+* [Build_static_smartctl_binary.md](linux/build_static_smartctl_binary.md)
 
 ---
 ## Rules
