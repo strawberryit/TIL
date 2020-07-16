@@ -7,6 +7,7 @@
 * [Macos](#macos)
 * [Life](#life)
 * [Linux](#linux)
+* [Dev](#dev)
 
 ---
 
@@ -18,6 +19,9 @@
 
 ## Linux
 * [Build_static_smartctl_binary.md](linux/build_static_smartctl_binary.md)
+
+## Dev
+* [Jetbrains_ide_subpixel_활성화.md](dev/JetBrains_IDE_Subpixel_활성화.md)
 
 ---
 ## Rules
