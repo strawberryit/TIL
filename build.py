@@ -45,7 +45,7 @@ readme = io.open('README.md', 'r+', encoding='utf-8')
 readme.write(header)
 readme.write("## Categories\n")
 
-files = glob.glob('**', recursive=True)
+files = sorted(glob.glob('**', recursive=True))
 directories = []
 
 for file in files:
@@ -55,7 +55,8 @@ for file in files:
 # 목록에서 제외 할 디렉토리
 def is_exclude_dir(directory):
     return directory == 'drafts' \
-        or directory.endswith('/image')
+        or directory.endswith('/image') \
+        or directory.endswith('/files')
 
 directories = [d for d in directories if not is_exclude_dir(d)]
 
