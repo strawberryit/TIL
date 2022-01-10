@@ -14,6 +14,7 @@
 ---
 
 ## Android
+* [Apple_silicon_맥에서_android_emulator에_xposed_framework_설치하기.md](android/Apple_Silicon_맥에서_Android_Emulator에_Xposed_Framework_설치하기.md)
 * [Lg_folder_화면_density_변경.md](android/LG_Folder_화면_Density_변경.md)
 
 ## Dev
@@ -48,4 +49,3 @@ Inspired by
 * [@jbranchaud](https://github.com/jbranchaud/til)
 * [@milooy](https://github.com/milooy/TIL)
 * [@channprj](https://github.com/channprj/TIL)
- [@channprj](https://github.com/channprj/TIL)
